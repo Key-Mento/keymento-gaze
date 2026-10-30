@@ -1,0 +1,6 @@
+# Keymento 시선 실험 도구 전용 venv (.venv) — run setup 이 설치한다.
+#
+# Keymento venv 에 설치하지 마세요. mediapipe 가 opencv-contrib-python 을 함께
+# 깔아 Keymento 의 opencv-python(AR·ArUco)과 cv2 가 충돌합니다.
+# numpy, opencv-contrib-python 은 mediapipe 와 함께 설치됩니다.
+mediapipe==1.2.0

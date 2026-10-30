@@ -1,0 +1,5 @@
+* text=auto
+
+# cmd.exe 는 LF 줄바꿈의 .bat 에서 레이블(goto)을 잘못 찾는다 — 어느 PC 에서
+# 받아도 CRLF 로 풀리게 못 박는다.
+*.bat text eol=crlf
